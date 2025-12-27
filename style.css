@@ -2,38 +2,56 @@ body{
     margin: 0;
 }
 
-header{
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+.header{
     display: flex;
     padding: 10px;
 
     justify-content: center;
 }
 
-header .text{
+.header .text{
     font-size: 48px;
     font-weight: 400;
 }
 
-
-.container{
-    height: 100vh;
+.play-container{
     display: flex;
-    border: 1px solid red;
+    flex: 1;
+    border: 3px solid orange;
 }
 
 .human{
     flex: 1;
+    display: flex;
+    flex-direction: column;
 
     border: 1px solid red;
 }
 
 .computer{
     flex: 1;
-
+    display: flex;
+    flex-direction: column;
     border: 1px solid red;
 }
 
 .dp-container{
-    
+    flex: 1;
     border: 1px solid blue;
+}
+
+.human-controls{
+    flex:2;
+    border: 1px solid red;
+}
+
+.scores{
+    flex: 2;
+    border: 1px solid red;
 }
