@@ -1,0 +1,17 @@
+.container{
+    border: 1px solid red;
+    display: flex;
+}
+
+.header{
+    border: 1px solid red;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+
+    size
+}

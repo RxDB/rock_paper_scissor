@@ -59,6 +59,6 @@ function showScore(){
     console.log('ComputerScore',computerScore);
 }
 
-playGame();
-showScore();
+// playGame();
+// showScore();
 
