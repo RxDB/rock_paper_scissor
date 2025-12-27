@@ -1,17 +1,39 @@
-.container{
-    border: 1px solid red;
-    display: flex;
-}
-
-.header{
-    border: 1px solid red;
-}
-
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid red;
+    margin: 0;
+}
 
-    size
+header{
+    display: flex;
+    padding: 10px;
+
+    justify-content: center;
+}
+
+header .text{
+    font-size: 48px;
+    font-weight: 400;
+}
+
+
+.container{
+    height: 100vh;
+    display: flex;
+    border: 1px solid red;
+}
+
+.human{
+    flex: 1;
+
+    border: 1px solid red;
+}
+
+.computer{
+    flex: 1;
+
+    border: 1px solid red;
+}
+
+.dp-container{
+    
+    border: 1px solid blue;
 }
