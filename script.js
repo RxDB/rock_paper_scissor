@@ -56,6 +56,8 @@ gameButtons.forEach(btn =>{
             playRound(take,choice);
             changePng(take,choice);
             checkWinner();
+        }else{
+            alert("Start Round first");
         }
     });
 });
