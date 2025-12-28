@@ -79,7 +79,7 @@ function checkWinner(){
     }
 
     else if(score2>=5){ 
-        alert("Ccomputer Wins");
+        alert("Computer Wins");
         humanScore.innerText = 0;
         computerScore.innerText = 0;
     }
