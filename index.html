@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -21,19 +21,57 @@
             <div class="human">
 
                 <div class="dp-container">
+                    <div class="dp">
+
+                        <img src="vecteezy_account-avatar-user-business-flat-line-filled-icon-vector_13552540.jpg">
+                        <div class="img-text">Human</div>
+                    </div>
+                    <div class="human-svg">
+                        <img src="rock-paper-scissors.png">
+                    </div>
                 </div>
-                <div class="human-controls">
-                    <button class="playround">Play round</button>
+                 <div class="human-controls">
+                    <div class="playround-container">
+                        <button id="play">Play round</button>
+                    </div>
+                    <div class="buttonz">
+                        <div btn-container>
+                            <button  id="rock">Play Rock</button>
+                        </div>
+                         <div btn-container>
+                             <button id="paper">Play Paper</button>
+                        </div>
+                         <div btn-container>
+                             <button id="scissor">Play Scissor</button>
+                        </div>
+                    </div>
                 </div>
 
             </div>
             
             <div class="computer">
                 <div class="dp-container">
-    
+                    <div class="computer-svg">
+                        <img src="rock-paper-scissors.png">
+                    </div>
+                    <div class="dp">
+                        
+                        <img src="vecteezy_color-desktop-computer-icon_54233437.jpg">
+                        <div class="img-text">Computer</div>
+                    </div>
                 </div>
                 <div class="scores">
-                    
+                    <div class="scoreboard">
+                        <div class="scoretext">Scoreboard</div>
+                        <div class="Human-score">
+                            <div class="human">Human: </div>
+                            <div id="hscore">0</div>
+                        </div>
+                        <div class="Computer-score">
+                            <div class="computer">Computer:</div>
+                            <div id="cscore">0</div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
